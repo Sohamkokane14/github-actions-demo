@@ -5,7 +5,7 @@ on :
       
 jobs:
     build: #job ka naam 
-        run-on: ubuntu-latest #GitHub Runner (free)
+        runs-on: ubuntu-latest #GitHub Runner (free)
         steps:
           - name: checkout code
             uses: actions/checkout@v4 #github repository ko clone karta hai into ubuntu runner 
